@@ -2,7 +2,7 @@
 This is a scrapy project built to extract data from books.toscrape.com. It also contains a custom pipeline built to convert prices in EUR to USD, using the latest market quotations pulled from an API.
 
 # How to run it
-For starters, you will need scrapy installed. Once you have it, you will need to make a new project using:
+For starters, you will need python and scrapy installed (pip install scrapy). Once you have it, you will need to make a new project using:
 
 scrapy startproject
 
