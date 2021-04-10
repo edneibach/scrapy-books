@@ -13,7 +13,6 @@ class BooksSpider(scrapy.Spider):
     """Scrapy spider that will extract titles, prices, image URLs and detail URLs from all categories from books.toscrape.com"""
 
     ### Instantiates the spider with a name, allowed domains, and start URL
-    ### Also assigns it to the BooksPipeline_EurToUsd, which will convert book prices from EUR to USD
     name = 'books_spider'
     allowed_domains = ['books.toscrape.com']
     start_urls = ['http://books.toscrape.com/']
